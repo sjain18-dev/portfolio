@@ -3,10 +3,6 @@
    ============================================ */
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Initialize Lucide icons
-  if (window.lucide) {
-    lucide.createIcons();
-  }
 
   // ---- Navbar scroll effect ----
   const navbar = document.getElementById('navbar');
@@ -119,10 +115,6 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.innerHTML = originalHTML;
         btn.style.background = '';
         contactForm.reset();
-        // Re-create icons after restoring original HTML
-        if (window.lucide) {
-          lucide.createIcons();
-        }
       }, 3000);
     });
   }

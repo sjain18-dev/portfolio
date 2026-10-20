@@ -863,6 +863,13 @@ section { padding: var(--space-4xl) 0; }
   box-shadow: var(--shadow-glow);
 }
 
+.social-links a svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+  flex-shrink: 0;
+}
+
 .footer p { color: var(--text-muted); font-size: 0.85rem; }
 
 /* ---- Animations ---- */
